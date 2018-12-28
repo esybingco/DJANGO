@@ -29,4 +29,8 @@ $ git reset HEAD GitTraining.txt
 
 $ git commit -m "Adding Git Training text File "
 
+# to pust to the github
+
+$ git push origin master
+
 # Atom as editor, test if this will be pushed in github
