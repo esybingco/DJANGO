@@ -25,6 +25,8 @@ $ git add GitTraining.txt
 
 $ git reset HEAD GitTraining.txt
 
+Test
+
 # To move from staging to git repository
 
 $ git commit -m "Adding Git Training text File "
