@@ -24,3 +24,9 @@ $ git add GitTraining.txt
 # To backout from the stating area:
 
 $ git reset HEAD GitTraining.txt
+
+# To move from staging to git repository
+
+$ git commit -m "Adding Git Training text File "
+
+# Atom as editor, test if this will be pushed in github
