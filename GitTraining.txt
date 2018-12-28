@@ -1,0 +1,26 @@
+gitHow to configure your git locally
+
+$ git config --global user.name "esybingco"
+$ git confif --global user.email "esybingco@gmail.com"
+$ git config --global --list
+
+#how to clone a reposity from github
+
+$ git clone https://github.com/esybingco/DJANGO.git
+
+# how to check if a copy is present locally
+
+$ ls
+
+# check status
+
+$ git status
+
+#When a new file is created and check the git status, it will show the file with status untracked files-working directory
+#To transfer to stating use the following
+
+$ git add GitTraining.txt
+
+# To backout from the stating area:
+
+$ git reset HEAD GitTraining.txt
