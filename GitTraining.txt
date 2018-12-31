@@ -104,3 +104,5 @@ $ git branch -m newbranch newname
 $ git branch -d newname
 
 # Adding my name here
+
+# This is edwin.sybingco@dlsu.edu.ph
