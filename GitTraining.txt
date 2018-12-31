@@ -62,5 +62,43 @@ $ git diff HEAD
 $ git difftool HEAD
 
 # COMPARE STAGING AND reposity
-$ git diff --stage HEAD
-$ git diftool --stage HEAD
+$ git diff --staged HEAD
+$ git difftool --staged HEAD
+
+# COMPARE ONE file
+$ git diff --GitTraining.txt
+$ git difftool--GitTraining
+
+# COMPARE BETWEEN Commits
+# List all commits
+$ git log --oneline
+
+# COMPARE -- it will compare one file at a time
+$ git diff HEAD HEAD^
+$ git diff 41ba060 HEAD
+$ git diff 3f22657 41ba060
+
+# COMPARE BETWEEN LOCAL and REMOTE repository
+
+$ git diff master origin/master
+
+# Branching
+# Separate changes using branches then merge to master  when it is already stable
+
+# list all the branches
+
+$ git branch -a
+
+# Create a new branch
+
+$ git branch mynewbranch
+
+# To switch branches use checkout
+
+$ git checkout mynewbranch
+
+# To rename a branch you need to be in master
+$ git branch -m newbranch newname
+
+# To delete a branch
+$ git branch -d newname
