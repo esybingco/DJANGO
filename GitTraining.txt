@@ -31,7 +31,7 @@ Test
 
 $ git commit -m "Adding Git Training text File "
 
-# to pust to the github
+# to push to the github
 
 $ git push origin master
 
@@ -103,6 +103,13 @@ $ git branch -m newbranch newname
 # To delete a branch
 $ git branch -d newname
 
-# Adding my name here
+# create branch and move to that branches
 
-# This is edwin.sybingco@dlsu.edu.ph
+$ git checkout -b newbranch
+
+# To merge the branch and master via fast forward. Possible only if no changes made in the target branch
+
+$ git merge newbranch
+
+# After the merge, then delete the branches
+$ git branch -d newbranch
