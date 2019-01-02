@@ -61,7 +61,7 @@ $ git difftool
 $ git diff HEAD
 $ git difftool HEAD
 
-# COMPARE STAGING AND reposity
+# COMPARE STAGING AND repository
 $ git diff --staged HEAD
 $ git difftool --staged HEAD
 
@@ -71,7 +71,7 @@ $ git difftool--GitTraining
 
 # COMPARE BETWEEN Commits
 # List all commits
-$ git log --oneline
+$ git log --oneline --graph --decorate --all
 
 # COMPARE -- it will compare one file at a time
 $ git diff HEAD HEAD^
